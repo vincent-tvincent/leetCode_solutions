@@ -1,7 +1,9 @@
 
 public class mainClass {
-    public static void main(String args[]){
-        romanToInt demo1 = new romanToInt();
-        System.out.println(demo1.romanToInt2("LVIII"));
+    public static void main(String[] args){
+        longestCommonPrefix demo = new longestCommonPrefix();
+        String[] list = {"aac","bb","bc","b","caca"};
+        System.out.println("the result is: " + demo.LongestCommonPrefix2(list));
+
     }
 }
